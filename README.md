@@ -11,7 +11,7 @@ Este é um projeto simples de **lista de tarefas (tasklist)** desenvolvido com *
 ## 🚀 Tecnologias Utilizadas
 
 - [React](https://reactjs.org/)
-- [Vite](https://vitejs.dev/) (caso tenha usado)
+- [Vite](https://vitejs.dev/)
 - [UUID](https://www.npmjs.com/package/uuid) para geração de IDs únicos
 - [Tailwind CSS](https://tailwindcss.com/) para o design responsivo e moderno
 - [React Router DOM](https://reactrouter.com/) para navegação entre páginas
