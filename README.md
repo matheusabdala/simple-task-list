@@ -1,12 +1,32 @@
-# React + Vite
+# 📝 Gerenciador de Tarefas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um projeto simples de **lista de tarefas (tasklist)** desenvolvido com **React**, com funcionalidades básicas de:
 
-Currently, two official plugins are available:
+- Adicionar tarefas
+- Marcar como concluída
+- Visualizar detalhes
+- Remover tarefas
+- Filtrar tarefas por título em tempo real
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tecnologias Utilizadas
 
-## Expanding the ESLint configuration
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/) (caso tenha usado)
+- [UUID](https://www.npmjs.com/package/uuid) para geração de IDs únicos
+- [Tailwind CSS](https://tailwindcss.com/) para o design responsivo e moderno
+- [React Router DOM](https://reactrouter.com/) para navegação entre páginas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 💾 Persistência com localStorage
+
+As tarefas são salvas no **localStorage** do navegador. Isso significa que, mesmo ao recarregar a página ou fechar o navegador, as tarefas adicionadas continuarão salvas localmente.
+
+> Não é necessário backend ou banco de dados para rodar este projeto.
+
+## 📦 Instalação
+
+Clone o repositório e execute os seguintes comandos:
+
+```bash
+npm install
+npm run dev
+```
